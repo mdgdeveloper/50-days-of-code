@@ -7,7 +7,7 @@ import math
 
 
 def serach_binary(list, value):
-    # To use the binary_search first we need to sort the list:
+    # To use the binary_search irst we need to sort the list:
     list.sort()
     L = 0
     R = len(list) - 1
