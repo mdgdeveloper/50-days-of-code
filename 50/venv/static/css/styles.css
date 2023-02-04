@@ -1,0 +1,58 @@
+/* Global styles */
+.menu {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.menu a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-right: 2vh;
+  text-decoration: none;
+  color: orange;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("../img/background.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* Index Styles */
+.h-title {
+  color: white;
+  font-size: 5vh;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+  margin-bottom: 3vh;
+}
+
+.h-subtitle {
+  color: yellow;
+  font-size: 3vh;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+  width: 40%;
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* About Styles */
+.a-subtitle {
+  color: white;
+  font-size: 2vh;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+  width: 70%;
+  text-align: center;
+  line-height: 1.5;
+}
